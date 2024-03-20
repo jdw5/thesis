@@ -1,6 +1,18 @@
 \chapter[Introduction]{Introduction}
-\label{Chap:Intro}
+\label{Chap:Motivation}
 
-\section{Introduction}
+\section{Motivation}
 
-Introduction section
+In recent years, the demand for efficient and versatile image processing systems has surged across various domains, including surveillance, medical imaging, autonomous vehicles, and more. 
+Field Programmable Gate Arrays (FPGAs) have emerged as a prominent solution due to their reconfigurability, parallel processing capabilities, and low power consumption.
+Hence, image processing is a good candidate for the application of parallel processing due to the algorithm complexity and large volume of data. \cite{Efficient}
+
+One significant aspect of image processing systems is the choice of the underlying processor architecture. 
+Traditional approaches often rely on general-purpose CPUs or GPUs to execute image processing tasks. 
+However, these architectures may not always offer the best balance of performance, power efficiency, and flexibility for image processing applications. 
+In recent years, the RISC-V instruction set architecture (ISA) has gained traction as an open, customizable, and energy-efficient alternative to proprietary processor designs.
+These soft processors can be implemented on FPGAs, providing a flexible and scalable platform for image processing tasks.
+
+This thesis focuses on the exploration and implementation of image detection algorithms using a RISC-V processor architecture deployed on an FPGA platform. 
+By leveraging the configurability of FPGAs and the energy efficiency of the RISC-V ISA, this research aims to develop a scalable and adaptable solution for real-time image detection tasks.
+The data processing capacity is large that the processing speed must be strict to meet the demands of real-time time image transmission \cite{Video}.

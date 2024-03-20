@@ -1,8 +1,119 @@
-\begin{thebibliography}{}
-\expandafter\ifx\csname url\endcsname\relax
-  \def\url#1{\texttt{#1}}\fi
-\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
-\expandafter\ifx\csname href\endcsname\relax
-  \def\href#1#2{#2} \def\path#1{#1}\fi
+\begin{thebibliography}{10}
+
+\bibitem{Efficient}
+R.~Khosla and B.~Singh, ``Implementation of efficient image processing
+  algorithm on fpga,'' in {\em 2013 International Conference on Machine
+  Intelligence and Research Advancement}, pp.~335--339, 2013.
+
+\bibitem{Video}
+X.~Wei, G.-M. Du, X.~Wang, H.~Cao, S.~Hu, D.~Zhang, and Z.~Li, ``Fpga
+  implementation of hardware accelerator for real-time video image edge
+  detection,'' in {\em 2021 IEEE 15th International Conference on
+  Anti-counterfeiting, Security, and Identification (ASID)}, pp.~16--20, 2021.
+
+\bibitem{RTEdge}
+C.~Ye, ``Real-time image edge detection system design and algorithms for
+  artificial intelligence fpgas,'' in {\em 2022 International Conference on
+  Artificial Intelligence of Things and Crowdsensing (AIoTCs)}, pp.~476--481,
+  2022.
+
+\bibitem{Mathworks}
+``Image analysis.''
+  \url{https://www.mathworks.com/discovery/image-analysis.html}.
+
+\bibitem{Gradient}
+B.~K. Upadhyaya and D.~Chakraborty, ``Fpga implementation of gradient based
+  edge detection algorithms for real time image,'' in {\em 2018 2nd
+  International Conference on Trends in Electronics and Informatics (ICOEI)},
+  pp.~1227--1233, 2018.
+
+\bibitem{Segmentation}
+A.~B. N, M.~Afsar, K.~K. Khaitan, Rahul, and C.~Gururaj, ``Optimized fpga
+  implementation and synthesis of image segmentation techniques,'' in {\em 2021
+  IEEE Mysore Sub Section International Conference (MysuruCon)}, pp.~191--196,
+  2021.
+
+\bibitem{XSG}
+G.~B. Reddy and K.~Anusudha, ``Implementation of image edge detection on fpga
+  using xsg,'' in {\em 2016 International Conference on Circuit, Power and
+  Computing Technologies (ICCPCT)}, pp.~1--5, 2016.
+
+\bibitem{Sobel}
+S.~Yaman, B.~Karakaya, and Y.~Erol, ``Real time edge detection via ip-core
+  based sobel filter on fpga,'' in {\em 2019 International Conference on
+  Applied Automation and Industrial Diagnostics (ICAAID)}, vol.~1, pp.~1--4,
+  2019.
+
+\bibitem{Canny}
+D.~Sangeetha and P.~Deepa, ``An efficient hardware implementation of canny edge
+  detection algorithm,'' in {\em 2016 29th International Conference on VLSI
+  Design and 2016 15th International Conference on Embedded Systems (VLSID)},
+  pp.~457--462, 2016.
+
+\bibitem{Aerial}
+R.~Harinarayan, R.~Pannerselvam, M.~Mubarak~Ali, and D.~Kumar~Tripathi,
+  ``Feature extraction of digital aerial images by fpga based implementation of
+  edge detection algorithms,'' in {\em 2011 International Conference on
+  Emerging Trends in Electrical and Computer Technology}, pp.~631--635, 2011.
+
+\bibitem{Drowsiness}
+S.~K. Mousavikia, E.~Gholizadehazari, M.~Mousazadeh, and S.~B.~O. Yalcin,
+  ``Instruction set extension of a riscv based soc for driver drowsiness
+  detection,'' {\em IEEE Access}, vol.~10, pp.~58151--58162, 2022.
+
+\bibitem{Linear}
+M.~F. Tolba, H.~Saleh, M.~Al-Qutayri, A.~Hroub, and T.~Stouraitis, ``Efficient
+  cnn hardware architecture based on linear approximation and computation reuse
+  technique,'' in {\em 2023 International Conference on Microelectronics
+  (ICM)}, pp.~7--10, 2023.
+
+\bibitem{Yolo}
+G.~Zhang, K.~Zhao, B.~Wu, Y.~Sun, L.~Sun, and F.~Liang, ``A risc-v based
+  hardware accelerator designed for yolo object detection system,'' in {\em
+  2019 IEEE International Conference of Intelligent Applied Systems on
+  Engineering (ICIASE)}, pp.~9--11, 2019.
+
+\bibitem{Arm}
+ARM, ``Risc (reduced instruction set computing).'' ARM Glossary.
+
+\bibitem{Neutron}
+K.~Böhmer, B.~Forlin, C.~Cazzaniga, P.~Rech, G.~Furano, N.~Alachiotis, and
+  M.~Ottavi, ``Neutron radiation tests of the neorv32 risc-v soc on flash-based
+  fpgas,'' in {\em 2023 IEEE International Symposium on Defect and Fault
+  Tolerance in VLSI and Nanotechnology Systems (DFT)}, pp.~1--6, 2023.
+
+\bibitem{RISCFPGA}
+L.~Poli, S.~Saha, X.~Zhai, and K.~D. Mcdonald-Maier, ``Design and
+  implementation of a risc v processor on fpga,'' in {\em 2021 17th
+  International Conference on Mobility, Sensing and Networking (MSN)},
+  pp.~161--166, 2021.
+
+\bibitem{DCT}
+T.~Harmina, D.~Hofman, and J.~Benjak, ``Dct implementation on a custom fpga
+  risc-v processor,'' in {\em 2023 International Symposium ELMAR},
+  pp.~163--167, 2023.
+
+\bibitem{NEORV32}
+S.~Nolting, ``The neorv32 risc-v processor,'' 2024.
+
+\bibitem{Cryptography}
+D.-T. Nguyen-Hoang, K.-M. Ma, D.-L. Le, H.-H. Thai, T.-B.-T. Cao, and D.-H. Le,
+  ``Implementation of a 32-bit risc-v processor with cryptography accelerators
+  on fpga and asic,'' in {\em 2022 IEEE Ninth International Conference on
+  Communications and Electronics (ICCE)}, pp.~219--224, 2022.
+
+\bibitem{Reconfigurable}
+N.~Wu, T.~Jiang, L.~Zhang, F.~Zhou, and F.~Ge, ``A reconfigurable convolutional
+  neural network-accelerated coprocessor based on risc-v instruction set,''
+  {\em Electronics}, vol.~9, no.~6, p.~1005, 2020.
+
+\bibitem{Parallelism}
+N.~R, ``Fpgas vs gpus - what’s the difference?,'' 2023.
+
+\bibitem{DCNN}
+A.~Rastogi, R.~Singh, R.~Sharma, and S.~D. Kalony, ``The survey of digital
+  image analysis with artificial intelligence- dcnn technique,'' in {\em 2020
+  9th International Conference System Modeling and Advancement in Research
+  Trends (SMART)}, pp.~209--211, 2020.
 
 \end{thebibliography}

@@ -1,4 +1,5 @@
 \documentclass[instructions]{uqthesis}
+% \usepackage{booktabs}
 %\documentclass[final]{uqthesis} 
 
 
@@ -87,7 +88,7 @@
 
 \clearpage
 %YOU MUST EDIT THIS DOCUMENT.
-% \input{./PreliminaryAndBackPages/Preliminary.tex}
+\input{./PreliminaryAndBackPages/Preliminary.tex}
 
 % ***************************************************
 % Thesis Content
@@ -98,10 +99,13 @@
 %We recommend keeping each in a separate subfolder, with its accompanying figures, etc. This is how the template is currently structured.
 %If you wish to divide your thesis into parts (each containing multiple chapters), us the \part{} command.
 
-
 \input{./Chapter1/Introduction.tex}
 
-\input{./Chapter2/Literature.tex}
+\input{./Chapter2/Background.tex}
+
+\input{./Chapter3/Topic.tex}
+
+\input{./Chapter4/Milestones.tex}
 
 % HOW TO ADD ADDITIONAL CHAPTERS
 % Step One: Add a new folder called "ChapterX" (X being the chapter number).
@@ -124,8 +128,7 @@
 
 %To use one of the styles provided ensure the % is removed from the start of the line, and the other option is commented out with a % at the start of the line. The style elsarticle-num is active by default.
 
-%\bibliographystyle{apalike}
-\bibliographystyle{elsarticle-num}
+\bibliographystyle{ieeetr}
 
 \bibliography{./References/Bibliography}
 
