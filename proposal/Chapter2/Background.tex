@@ -14,24 +14,23 @@ Edge detection forms the basis of many image analysis techniques, as it is used 
 These are generally classed as gradient-based or Laplacian based, though gradient-based algorithms are dominant for the task \cite{Gradient}.
 
 The Robert, Prewitt and Sobel techniques are the most prominent of the gradient-based algorithms, applying kernels to the image to detect edges \cite{Segmentation}.
-The Robert operator approximates the gradient of an image using discrete differentiation pair of 2x2 kernel
-The Sobel operator is
-The Prewitt operator
-\cite{XSG}
-
-\cite{Sobel, Video, Canny, Aerial} demonstrate an implementation of a hardware accelerated Sobel filter, and other filters, applied at the hardware level, with the design realizing improve efficiency in performance and resource utilisation. 
-FPGAs are providing a platform for processing real time algorithms on application-specific hardware with substantially higher performance than programmable digital signal processors (DSPs) \cite{RTEdge}.
-This strongly indicates that FPGA-based implementations of image detection algorithms can offer significant improvements in running time for the processing technique.
-
-FPGA can offer a technology to realize the digital filters or other important digital signal processing by the distributed arithmetic (DA) technology conveniently (FPGA based Sobel algorithm as vehicle edge detector in VCAS)
+\cite{XSG, Sobel, Canny, Aerial, Video} all provide a hardware implementation of the these filters, utilising the parallel processing capabilities of FPGAs to accelerate the gradient operations.
+These designs realized improve efficiency in performance, per the throughput, and resource utilisation. 
+Hence, FPGAs are providing a platform for processing real time algorithms on application-specific hardware with substantially higher performance than programmable digital signal processors (DSPs) \cite{RTEdge}.
+This strongly indicates that FPGA-based implementations of image detection algorithms can offer significant improvements in running time for a range of digital signal processing methods.
 
 The general pipeline for image detection and analysis is shown in Figure \ref{fig:pipeline}. This covers the available techniques which can be abstracted into hardware, to provide a high-speed, real-time image detection system.
+
 \begin{figure}[h]
     \centering
     \includegraphics[width=1\textwidth]{Assets/Pipeline.png}
     \caption{Pipeline for image analysis techniques \cite{RTEdge}}
     \label{fig:pipeline}
 \end{figure}
+
+\cite{SoCImage, Aerial} follow a similar pipeline to Figure \ref{fig:pipeline}, with the image being captured by a camera module, and then processed by an FPGA though using differing image techniques.
+The FPGA platform is optimal for any image detection tasks, as it can accelerate the required multiplication and addition operators separately - required for classical, and deep learning, based techniques \cite{ResourceEfficient}
+
 
 
 \subsection{Convolutional Neural Networks and Deep Learning}
@@ -44,8 +43,10 @@ However, the proceeding \cite{Drowsiness} article found that the use of an embed
 This can then be compiled and translated into machine code, as there exists a toolchain for RISC-V.
 
 Similar works for image-analysis using different neural network architectures have also been implemented using FPGA hardware.
-\cite{Yolo} demonstrates a hardware implementation of the You Only Look Once (YOLO) algorithm using a Xilinx Virtex-7 FPGA. 
+\cite{Yolo, SparseYolo } demonstrates a hardware implementation of the You Only Look Once (YOLO) algorithm using a Xilinx Virtex-7 FPGA. 
 Like the CNN hardware implementations, the architecture is focused on accelerating the convolution operation - and is a common denominator in the performance neural networks in hardware.
+This acceleration is not specific to the convolution operator, and can be applied to any intensive operation in the network as the FPGA has little overhead on each operator when compared to traditional platforms \cite{Overhead}.
+This is corroborated by \cite{Throughput}, which found that the implementation of hybrid neural networks on a Xilinix Virtex-7 690T FPGA achieved 4.13 times higher throughput than state of the accelerators in 2019.
 
 \subsection{RISC-V}
 Instruction set architectures (ISAs) define the operations a processor can execute, but the majority of ISAs are proprietary. 
@@ -71,7 +72,6 @@ Hence, FPGA technology is optimal for edge applications on images due to the par
 
 FPGAs have been studied extensively in the field of image detection, as replacements to existing hardware infrastructures. 
 The most common application is to accelerate the convolution operation using the parallel processing capabilities of FPGAs. 
-This is the most computationally intensive operation in CNNs, and is the primary bottleneck in the performance of CNNs REF.
 
 Figure \ref{fig:gradient} shows an implemention of a hardware-accelerated edge-detection algorithm for video images, using the Intel Cyclone IV FPGA platform direct from a camera module. 
 This requires a camera module, FPGA and uses a VGA monitor to display the output - but does not use a softcore processor. 

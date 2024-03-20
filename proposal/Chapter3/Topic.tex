@@ -38,8 +38,6 @@ The work can be divided into subcomponents to provide a timeline and structure t
 The work will require the Xilinx Artix 7 XC7A100T FPGA, and a corresponding board to access I/O.
 A Digilent Basys 3 board is available initially for development, however, a Digilent Nexys A7-100T board may be required depending on resource limits.
 Both these boards use the Artix 7 XC7A100T FPGA, and have VGA outputs to allow for images to be displayed.
-Figure REF below designates a high-level overview of the proposed system.
-
 The camera module will be connected to the FPGA, and the NEORV32 processor will be used to control the image detection algorithm.
 
 \subsection{Softcore Processor}
@@ -48,7 +46,7 @@ This processor will be implemented on the FPGA, and will be used to control the 
 
 \subsection{Image Detection Algorithm}
 The image detection algorithm has not yet been selected, and it is dependent on the resources available, and complexity desired.
-The current options being considered are a convolutional neural network, such as in REF, or implementing classical imaging techniques via hardware such as that proposed in REF.
+The current options being considered are a convolutional neural network, such as in \cite{Gradient}, or implementing classical imaging techniques via hardware such as that proposed in \cite{SoCImage}.
 It is desired to implement a convolutional neural network, as image analysis is moving in the direction of deep learning algorithms \cite{DCNN}
 
 \section{Performance Indicators}
@@ -58,8 +56,7 @@ The performance of the system to establish the success of the project are provid
 \begin{center}
     \small
     \begin{longtable}{lp{0.6\linewidth}}
-        \label{tab:performance}
-        \caption{Table of performance indicators.} \\
+        \caption{Table of performance indicators.} \label{tab:performance}\\
         \toprule
         Indicator & Description \\
         \midrule

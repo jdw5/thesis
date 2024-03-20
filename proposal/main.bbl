@@ -1,5 +1,17 @@
 \begin{thebibliography}{10}
 
+\bibitem{RTEdge}
+C.~Ye, ``Real-time image edge detection system design and algorithms for
+  artificial intelligence fpgas,'' in {\em 2022 International Conference on
+  Artificial Intelligence of Things and Crowdsensing (AIoTCs)}, pp.~476--481,
+  2022.
+
+\bibitem{Gradient}
+B.~K. Upadhyaya and D.~Chakraborty, ``Fpga implementation of gradient based
+  edge detection algorithms for real time image,'' in {\em 2018 2nd
+  International Conference on Trends in Electronics and Informatics (ICOEI)},
+  pp.~1227--1233, 2018.
+
 \bibitem{Efficient}
 R.~Khosla and B.~Singh, ``Implementation of efficient image processing
   algorithm on fpga,'' in {\em 2013 International Conference on Machine
@@ -11,21 +23,9 @@ X.~Wei, G.-M. Du, X.~Wang, H.~Cao, S.~Hu, D.~Zhang, and Z.~Li, ``Fpga
   detection,'' in {\em 2021 IEEE 15th International Conference on
   Anti-counterfeiting, Security, and Identification (ASID)}, pp.~16--20, 2021.
 
-\bibitem{RTEdge}
-C.~Ye, ``Real-time image edge detection system design and algorithms for
-  artificial intelligence fpgas,'' in {\em 2022 International Conference on
-  Artificial Intelligence of Things and Crowdsensing (AIoTCs)}, pp.~476--481,
-  2022.
-
 \bibitem{Mathworks}
 ``Image analysis.''
   \url{https://www.mathworks.com/discovery/image-analysis.html}.
-
-\bibitem{Gradient}
-B.~K. Upadhyaya and D.~Chakraborty, ``Fpga implementation of gradient based
-  edge detection algorithms for real time image,'' in {\em 2018 2nd
-  International Conference on Trends in Electronics and Informatics (ICOEI)},
-  pp.~1227--1233, 2018.
 
 \bibitem{Segmentation}
 A.~B. N, M.~Afsar, K.~K. Khaitan, Rahul, and C.~Gururaj, ``Optimized fpga
@@ -56,6 +56,16 @@ R.~Harinarayan, R.~Pannerselvam, M.~Mubarak~Ali, and D.~Kumar~Tripathi,
   edge detection algorithms,'' in {\em 2011 International Conference on
   Emerging Trends in Electrical and Computer Technology}, pp.~631--635, 2011.
 
+\bibitem{SoCImage}
+E.~Gholizadehazari, T.~Ayhan, and B.~Ors, ``An fpga implementation of a risc-v
+  based soc system for image processing applications,'' in {\em 2021 29th
+  Signal Processing and Communications Applications Conference (SIU)},
+  pp.~1--4, 2021.
+
+\bibitem{ResourceEfficient}
+Y.~Ma, Q.~Xu, and Z.~Song, ``Resource-efficient optimization for fpga-based
+  convolution accelerator,'' {\em Electronics}, vol.~12, p.~4333, 10 2023.
+
 \bibitem{Drowsiness}
 S.~K. Mousavikia, E.~Gholizadehazari, M.~Mousazadeh, and S.~B.~O. Yalcin,
   ``Instruction set extension of a riscv based soc for driver drowsiness
@@ -72,6 +82,23 @@ G.~Zhang, K.~Zhao, B.~Wu, Y.~Sun, L.~Sun, and F.~Liang, ``A risc-v based
   hardware accelerator designed for yolo object detection system,'' in {\em
   2019 IEEE International Conference of Intelligent Applied Systems on
   Engineering (ICIASE)}, pp.~9--11, 2019.
+
+\bibitem{SparseYolo}
+Z.~Wang, K.~Xu, S.~Wu, L.~Liu, L.~Liu, and D.~Wang, ``Sparse-yolo:
+  Hardware/software co-design of an fpga accelerator for yolov2,'' {\em IEEE
+  Access}, vol.~8, pp.~116569--116585, 2020.
+
+\bibitem{Overhead}
+J.~He, W.~Li, J.~Xu, M.~Zhang, and H.~Yang, ``Research on convolution
+  decomposition and hardware acceleration based on fpga,'' in {\em 2023 4th
+  International Conference on Computer Engineering and Application (ICCEA)},
+  pp.~285--291, 2023.
+
+\bibitem{Throughput}
+S.~Yin, S.~Tang, X.~Lin, P.~Ouyang, F.~Tu, L.~Liu, and S.~Wei, ``A high
+  throughput acceleration for hybrid neural networks with efficient resource
+  management on fpga,'' {\em IEEE Transactions on Computer-Aided Design of
+  Integrated Circuits and Systems}, vol.~38, no.~4, pp.~678--691, 2019.
 
 \bibitem{Arm}
 ARM, ``Risc (reduced instruction set computing).'' ARM Glossary.
@@ -94,7 +121,8 @@ T.~Harmina, D.~Hofman, and J.~Benjak, ``Dct implementation on a custom fpga
   pp.~163--167, 2023.
 
 \bibitem{NEORV32}
-S.~Nolting, ``The neorv32 risc-v processor,'' 2024.
+S.~Nolting, ``The neorv32 risc-v processor.''
+  \url{https://stnolting.github.io/neorv32/}, 2024.
 
 \bibitem{Cryptography}
 D.-T. Nguyen-Hoang, K.-M. Ma, D.-L. Le, H.-H. Thai, T.-B.-T. Cao, and D.-H. Le,

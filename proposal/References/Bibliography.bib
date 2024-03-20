@@ -123,19 +123,15 @@ $ article, inproceedings, misc
   URL={https://doi.org/10.3390/electronics9061005}
 }
 
-@article{ResourceEfficient
-author={Ma,Yanhua and Xu,Qican and Song,Zerui},
-year={2023},
-title={Resource-Efficient Optimization for FPGA-Based Convolution Accelerator},
-journal={Electronics},
-volume={12},
-number={20},
-pages={4333},
-note={Name - CNN; Copyright - © 2023 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/). Notwithstanding the ProQuest Terms and Conditions, you may use this content in accordance with the terms of the License; Last updated - 2023-10-27},
-abstract={Convolution forms one of the most essential operations for the FPGA-based hardware accelerator. However, the existing designs often neglect the inherent architecture of FPGA, which puts forward an austere challenge on hardware resource. Even though some previous works have proposed approximate multipliers or convolution acceleration algorithms to deal with this issue, the inevitable accuracy loss and resource occupation easily lead to performance degradation. Toward this, we first propose two kinds of resource-efficient optimized accurate multipliers based on LUTs or carry chains. Then, targeting FPGA-based platforms, a generic multiply–accumulate structure is constructed by directly accumulating the partial products produced by our proposed optimized radix-4 Booth multipliers without intermediate multiplication and addition results. Experimental results demonstrate that our proposed multiplier achieves a maximum 51% look-up-table (LUT) reduction compared to the Vivado area-optimized multiplier IP. Furthermore, the convolutional process unit using the proposed structure achieves a 36% LUT reduction compared to existing methods. As case studies, the proposed method is applied to DCT transform, LeNet, and MobileNet-V3 to achieve hardware resource saving without loss of accuracy.},
-keywords={Electronics; convolution; multiplier; look-up table; carry chain; FPGA; Accuracy; Reduction; Hardware; Multipliers; Optimization; Neural networks; Multiplication; Algorithms; Energy efficiency; Methods; Performance degradation; Field programmable gate arrays},
-language={English},
-url={https://www.proquest.com/scholarly-journals/resource-efficient-optimization-fpga-based/docview/2882557290/se-2},
+@article{ResourceEfficient,
+author = {Ma, Yanhua and Xu, Qican and Song, Zerui},
+year = {2023},
+month = {10},
+pages = {4333},
+title = {Resource-Efficient Optimization for FPGA-Based Convolution Accelerator},
+volume = {12},
+journal = {Electronics},
+doi = {10.3390/electronics12204333}
 }
 
 @INPROCEEDINGS{Cryptography,
@@ -239,12 +235,13 @@ url={https://www.proquest.com/scholarly-journals/resource-efficient-optimization
   url = {https://www.logic-fruit.com/blog/fpga/fpgas-vs-gpus/}
 }
 
-@online{Arm,
+@misc{Arm,
   author = {ARM},
   title = {RISC (Reduced Instruction Set Computing)},
   howpublished = {ARM Glossary},
   url = {https://www.arm.com/glossary/risc}
 }
+
 
 @INPROCEEDINGS{DCNN,
   author={Rastogi, Ajay and Singh, Ravendra and Sharma, Ranjana and Kalony, Shanker Dutt},
@@ -272,6 +269,39 @@ url={https://www.proquest.com/scholarly-journals/resource-efficient-optimization
   Author = "Stephan Nolting",
   title = "The NEORV32 RISC-V Processor",
   number = "NEORV32",
-  year =  2024
+  year = 2024,
   howpublished = {\url{https://stnolting.github.io/neorv32/}}
 }
+
+@ARTICLE{Throughput,
+  author={Yin, Shouyi and Tang, Shibin and Lin, Xinhan and Ouyang, Peng and Tu, Fengbin and Liu, Leibo and Wei, Shaojun},
+  journal={IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems}, 
+  title={A High Throughput Acceleration for Hybrid Neural Networks With Efficient Resource Management on FPGA}, 
+  year={2019},
+  volume={38},
+  number={4},
+  pages={678-691},
+  keywords={Acceleration;Field programmable gate arrays;Engines;Neural networks;Bandwidth;Convolution;Quantization (signal);Field-programmable gate array (FPGA)-based accelerators;hybrid neural networks (hybrid-NNs);resource efficient mapping},
+  doi={10.1109/TCAD.2018.2821561}}
+
+@INPROCEEDINGS{Overhead,
+  author={He, Jinzhong and Li, Weijun and Xu, Jian and Zhang, Ming and Yang, Huiqu},
+  booktitle={2023 4th International Conference on Computer Engineering and Application (ICCEA)}, 
+  title={Research on Convolution Decomposition and Hardware Acceleration based on FPGA}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={285-291},
+  keywords={Convolution;Design methodology;Computational modeling;Computer architecture;Bandwidth;Behavioral sciences;Convolutional neural networks;hardware acceleration;parallel computing;deep learning;CNN;FPGA},
+  doi={10.1109/ICCEA58433.2023.10135385}}
+
+@ARTICLE{SparseYolo,
+  author={Wang, Zixiao and Xu, Ke and Wu, Shuaixiao and Liu, Li and Liu, Lingzhi and Wang, Dong},
+  journal={IEEE Access}, 
+  title={Sparse-YOLO: Hardware/Software Co-Design of an FPGA Accelerator for YOLOv2}, 
+  year={2020},
+  volume={8},
+  number={},
+  pages={116569-116585},
+  keywords={Field programmable gate arrays;Convolution;Hardware;Object detection;Partitioning algorithms;Clustering algorithms;Throughput;Convolutional neural networks;fine-grained pruning;field programmable gate arrays;object detection;YOLO},
+  doi={10.1109/ACCESS.2020.3004198}}
